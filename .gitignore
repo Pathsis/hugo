@@ -1,2 +1,5 @@
 .env
 .env.build
+themes/PaperMod/.DS_Store
+themes/PaperMod/assets/.DS_Store
+.gitignore

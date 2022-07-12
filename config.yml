@@ -100,7 +100,7 @@ params:
     - name: twitter
       url: ""
     - name: email
-      url: "mailto:liuktt@hotmail.com"
+      url: "mailto:kmt007@outlook.com"
 
   cover:
     hidden: true # hide everywhere but not in structured data
