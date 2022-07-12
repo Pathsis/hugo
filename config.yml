@@ -72,7 +72,7 @@ params:
   title: pathos.page
   description: 思想 / 思享 / 四向
   keywords: [ 博客 ]
-  author: Liu K
+  author: pathos
   images: [ "https://images.unsplash.com/photo-1510843572979-e4b9e790fdd7?auto=format&fit=crop&w=720&q=80" ]
 
   defaultTheme: auto # dark, light
