@@ -42,7 +42,7 @@ languages:
         - name: 出版物
           url: projects
     label:
-      text: 拣尽寒枝
+      text: pathos.page
     menu:
       main:
         - identifier: search
@@ -69,7 +69,7 @@ languages:
 params:
   gtm_id: ""
   env: production
-  title: 拣尽寒枝
+  title: pathos.page
   description: 思想 / 思享 / 四向
   keywords: [ 博客 ]
   author: Liu K
