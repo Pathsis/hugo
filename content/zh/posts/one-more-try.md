@@ -2,7 +2,7 @@
 title: 想吃就吃
 date: 2022-07-10
 uid: chita
-tags: 色欲
+tags:  [色欲]
 cover:
     image: "https://s3.ap-northeast-1.amazonaws.com/cdn.inged.cn/chita.jpeg"
     # can also paste direct link from external site
