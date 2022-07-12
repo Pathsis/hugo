@@ -57,10 +57,6 @@ languages:
           name: 标签
           url: /tags/
           weight: 3
-        - identifier: projects
-          name: 出版物
-          url: /projects/
-          weight: 4
         - identifier: about
           name: 关于
           url: /about/
