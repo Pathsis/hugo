@@ -11,7 +11,7 @@ cover:
     relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-可以继续看看下面👇🏻
+多么是一件美事，可以继续看看下面👇🏻
 
 ![img](/img/20220710/photo1644029631_1.jpeg)
 
