@@ -1,7 +1,7 @@
 {{- $scratch := newScratch }}
 
 {{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (.Date.Format "January 2, 2006" .Site.Params.DateFormat)) }}
+{{- $scratch.Add "meta" (slice (.Date.Format "2006年1月2日" .Site.Params.DateFormat)) }}
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}
