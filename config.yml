@@ -1,6 +1,6 @@
 baseURL: https://blog.pathos.page
 title: pathos.page
-theme: ananke
+theme: PaperMod
 paginate: 10
 
 defaultContentLanguage: zh
