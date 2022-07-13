@@ -1,8 +1,10 @@
 {{- $scratch := newScratch }}
 
-{{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (.Date.Format "2006年1月2日" .Site.Params.DateFormat)) }}
-{{- end }}
+{{ if (gt .Params.date 0)}}
+
+  {{ .Date.Format "20060102" }}
+
+{{ end }}
 
 {{- if (.Param "ShowReadingTime") -}}
 {{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
