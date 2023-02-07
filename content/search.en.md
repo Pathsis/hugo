@@ -1,4 +1,5 @@
 ---
-title: "SearchL2"
+title: "Search"
 layout: "search"
+searchHidden: true
 ---

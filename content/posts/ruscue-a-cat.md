@@ -5,7 +5,7 @@ date: "2023-01-06"
 description: "Lorem Ipsum Dolor Si Amet"
 tags: ["markdown", "text"]
 hideMeta: true
-searchHidden: true
+
 ShowBreadCrumbs: false
 ---
 
