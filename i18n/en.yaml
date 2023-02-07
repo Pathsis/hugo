@@ -1,14 +1,33 @@
-rust-fullstack-todo:
-  other: Rust Fullstack Todo Application.
+- id: prev_page
+  translation: "Prev"
 
-low-calorie:
-  other: Low calorie meal.
+- id: next_page
+  translation: "Next"
 
-algo-visualization:
-  other: Algorithm visualization.
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
 
-kox:
-  other: Kotlin implementation of Lox language.
+- id: words
+  translation:
+    one : "word"
+    other: "{{ .Count }} words"
 
-konverter:
-  other: Code generation for converter between data class by KAPT.
+- id: toc
+  translation: "Table of Contents"
+
+- id: translations
+  translation: "Translations"
+
+- id: home
+  translation: "Home"
+
+- id: edit_post
+  translation: "Edit"
+
+- id: code_copy
+  translation: "copy"
+
+- id: code_copied
+  translation: "copied!"

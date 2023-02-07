@@ -1,14 +1,33 @@
-rust-fullstack-todo:
-  other: Rust 全栈代办应用
+- id: prev_page
+  translation: "上一页"
 
-low-calorie:
-  other: 低卡减脂餐。
+- id: next_page
+  translation: "下一页"
 
-algo-visualization:
-  other: 算法可视化。
+- id: read_time
+  translation:
+    one : "1 分钟"
+    other: "{{ .Count }} 分钟"
 
-kox:
-  other: 用 Kotlin 实现的 Lox 编程语言。
+- id: words
+  translation: 
+    one: "字"
+    other: "{{ .Count }} 字"
 
-konverter:
-  other: 通过 KAPT 生成 data class 自动转换代码。
+- id: toc
+  translation: "目录"
+
+- id: translations
+  translation: "语言"
+
+- id: home
+  translation: "主页"
+
+- id: edit_post
+  translation: "编辑"
+
+- id: code_copy
+  translation: "复制"
+
+- id: code_copied
+  translation: "已复制！"
