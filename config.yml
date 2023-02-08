@@ -37,10 +37,10 @@ languages:
                   url: tags/
                   weight: 10
                 - name: 系列
-                  url: series
+                  url: series/
                   weight: 20
                 - name: 相册
-                  url: photos
+                  url: photos/
                   weight: 30
                 
                   
@@ -82,8 +82,8 @@ languages:
                 - name: Series
                   url: series
                   weight: 20
-                - name: Galleryy
-                  url: photos
+                - name: Gallary
+                  url: photos/
                   weight: 30
 outputs:
     home:
