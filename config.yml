@@ -28,19 +28,19 @@ languages:
         menu:
             main:
                 - name: 归档
-                  url: archives
+                  url: /archives/
                   weight: 5
                 - name: 搜索
-                  url: search/
+                  url: /search/
                   weight: 10
                 - name: 标签
-                  url: tags/
+                  url: /tags/
                   weight: 10
                 - name: 系列
-                  url: series/
+                  url: /series/
                   weight: 20
                 - name: 相册
-                  url: photos/
+                  url: /photos/
                   weight: 30
                 
                   
@@ -74,16 +74,16 @@ languages:
                   url: archives
                   weight: 5
                 - name: Search
-                  url: search/
+                  url: /search/
                   weight: 10
                 - name: Tags
-                  url: tags/
+                  url: /tags/
                   weight: 10
                 - name: Series
-                  url: series
+                  url: /series
                   weight: 20
                 - name: Gallary
-                  url: photos/
+                  url: /photos/
                   weight: 30
 outputs:
     home:
