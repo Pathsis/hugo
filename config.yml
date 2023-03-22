@@ -1,5 +1,5 @@
-baseURL: "https://hugo-sepia-psi.vercel.app/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: 今堡
+baseURL: "https://jinberg.com" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: Jinberg
 paginate: 5
 theme: PaperMod
 defaultContentLanguage: zh
@@ -10,6 +10,11 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
+TZ: "Asia/Shanghai"
+hasCJKLanguage: true
+
+permalinks:
+  posts: "/:filename/"
 
 
 minify:
@@ -27,6 +32,9 @@ languages:
           series: series
         menu:
             main:
+                - name: 关于
+                  url: /about/
+                  weight: 0
                 - name: 归档
                   url: /archives/
                   weight: 5
@@ -36,8 +44,6 @@ languages:
                 - name: 标签
                   url: /tags/
                   weight: 10
-                - name: 系列
-                  url: /series/
                   weight: 20
                 - name: 相册
                   url: /photos/
@@ -57,7 +63,7 @@ languages:
           series: series
         profileMode:
             enabled: false
-            title: PaperMod
+            title: Jinberg
             imageUrl: "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f317.svg"
             imageTitle: ProfileMode image
             # imageWidth: 120
@@ -67,9 +73,12 @@ languages:
                 - name: Blog
                   url: posts
                 - name: Profile Mode
-                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+                  url: https://github.com/Jinberge/jinberg
         menu:
            main:
+                - name: About
+                  url: /about/
+                  weight: 0
                 - name: Archives
                   url: archives
                   weight: 5
@@ -79,9 +88,6 @@ languages:
                 - name: Tags
                   url: /tags/
                   weight: 10
-                - name: Series
-                  url: /series
-                  weight: 20
                 - name: Gallary
                   url: /photos/
                   weight: 30
@@ -93,8 +99,8 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: Theme PaperMod
+    description: "Jin的个人城堡"
+    author: Jinberg
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
@@ -113,7 +119,7 @@ params:
 
     profileMode:
         enabled: false
-        title: PaperMod
+        title: Jinberg
         imageUrl: "#"
         imageTitle: my image
         # imageWidth: 120
@@ -125,27 +131,23 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "PaperMod"
+        Title: "哈啰👏🏻"
         Content: >
-            Welcome to demo of hugo's theme PaperMod.
+            欢迎来到我的博客。我会分享一些生活见闻和心路历程。
 
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-
-            - Do give a 🌟 on Github !
-
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+            在[这里](https://github.com/Jinberge/jinberg)给我留言吧。
 
     socialIcons:
         - name: github
-          url: "https://github.com/adityatelange/hugo-PaperMod"
+          url: "https://github.com/Jinberge/jinberg"
         - name: KoFi
           url: "https://ko-fi.com/adityatelange"
         - name: Rss
           url: "index.xml"
 
     editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-        Text: "Suggest Changes" # edit text
+        URL: "https://github.com/Jinberge/jinberg/tree/main/content"
+        Text: "Eidit this post" # edit text
         appendFilePath: true # to append file path to Edit link
  
     # label:

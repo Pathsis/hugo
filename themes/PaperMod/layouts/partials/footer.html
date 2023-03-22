@@ -6,9 +6,8 @@
     <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
     {{- end }}
     <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+        Last build at {{ now.Format "2006-1-2 15:04" }} by
+        <a href="https://vercel.com/Jinberge/jinberg" rel="noopener noreferrer" target="_blank">Vercel</a>.
     </span>
 </footer>
 {{- end }}
